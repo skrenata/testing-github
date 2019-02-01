@@ -37,6 +37,5 @@ Create a new branch. Or, use option -D before branchName to delete it.
 Switches to a different branch.
 
 ## git merge [branchName]
-Merges branchName with the branch you're currently in. For example, if you're in master you'll bring the changes from branchName into master.  
-I've tried this but, even though the branches were successfully merged and I deleted the test branch, on GitHub it still shows as two different branches...  
+Merges branchName with the branch you're currently in. For example, if you're in master you'll bring the changes from branchName into master.  I've tried this locally but, even though the branches were successfully merged and I deleted the test branch, on GitHub it still shows as two different branches even after adding / commiting stuff...  
 An alternative might be to do this via the GitHub web interface (there are buttons for comparing and merging stuff, which may be easier to deal with); and then later pull the repository again to overwrite the local different branches.
