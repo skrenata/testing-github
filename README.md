@@ -18,14 +18,11 @@ GitHub has an option that prevents your email address from becoming public when 
 In order to prevent this from happening:
 
 - Find your GitHub noreply address in your GitHub's Personal Settings -> Emails. It's mentioned in the description of the Keep my email address private checkbox. Usually, it starts with a unique identifier, plus your username.
-
 - Change the global user e-mail address setting to be your GitHub noreply address:   
 git config --global user.email {ID}+{username}@users.noreply.github.com
-
 - If required, reset the author information on your last commit:  
 git commit --amend --reset-author  
 If you have multiple commits with your private e-mail address, see the full stackoverflow answer. The best really is to do this before pushing / pulling anything.
-
 - Now you can push the commit with the noreply e-mail address, and future commits will have the noreply e-mail address as well.
 Source:  
 https://stackoverflow.com/questions/43378060/meaning-of-the-github-message-push-declined-due-to-email-privacy-restrictions
