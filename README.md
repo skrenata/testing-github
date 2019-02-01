@@ -37,5 +37,6 @@ If you use two-factor authentication, you won't be able to push stuff to GitHub 
 - Generate New Token
 - Choose the permissions you need
 - Use that token as your password when requested by git
+
 Source:  
 https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/
