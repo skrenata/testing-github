@@ -24,6 +24,7 @@ git config --global user.email {ID}+{username}@users.noreply.github.com
 git commit --amend --reset-author  
 If you have multiple commits with your private e-mail address, see the full stackoverflow answer. The best really is to do this before pushing / pulling anything.
 - Now you can push the commit with the noreply e-mail address, and future commits will have the noreply e-mail address as well.
+
 Source:  
 https://stackoverflow.com/questions/43378060/meaning-of-the-github-message-push-declined-due-to-email-privacy-restrictions
 
