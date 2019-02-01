@@ -31,11 +31,12 @@ This will update the specified [branch] in your original GitHub directory, using
 Lists all existing branches, highlighting in which one you're working at the moment.
 
 ### git branch [branchName]
-Create a new branch.
+Create a new branch. Or, use option -D before branchName to delete it.
 
 ## git checkout [branchName]
 Switches to a different branch.
 
 ## git merge [branchName]
 Merges branchName with the branch you're currently in. For example, if you're in master you'll bring the changes from branchName into master.  
-An alternative is to do this via the GitHub web interface (there are buttons for comparing and merging stuff, which may be easier to deal with); and then later pull the repository again to overwrite the local different branches.
+I've tried this but, even though the branches were successfully merged and I deleted the test branch, on GitHub it still shows as two different branches...  
+An alternative might be to do this via the GitHub web interface (there are buttons for comparing and merging stuff, which may be easier to deal with); and then later pull the repository again to overwrite the local different branches.
