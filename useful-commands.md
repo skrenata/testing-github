@@ -35,3 +35,7 @@ Create a new branch.
 
 ## git checkout [branchName]
 Switches to a different branch.
+
+## git merge [branchName]
+Merges branchName with the branch you're currently in. For example, if you're in master you'll bring the changes from branchName into master.  
+An alternative is to do this via the GitHub web interface (there are buttons for comparing and merging stuff, which may be easier to deal with); and then later pull the repository again to overwrite the local different branches.
